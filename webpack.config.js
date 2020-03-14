@@ -22,7 +22,6 @@ module.exports = {
     },
 
     plugins:[
-        new webpack.IgnorePlugin(/uws/),
         new CleanWebpackPlugin()
     ],
 

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "your description",
   "main": "app",
+  "sideEffects": true,
   "scripts": {
     "dev": "ts-node src/app.ts",
     "start": "set NODE_ENV=development& nodemon",
